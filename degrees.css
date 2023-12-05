@@ -1,0 +1,82 @@
+/* degrees.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #b75757;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .education-content {
+    max-width: 800px;
+    margin: 20px auto;
+    display: none; /* Initially hide the education content */
+  }
+  
+  /* Style for the "show" class to make the education content visible */
+  .education-content.show {
+    display: block;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #b75757;
+    padding: 12px;
+    text-align: left;
+  }
+
+  /* Hover effect for education table rows */
+  table tbody tr:hover {
+    background-color: #b75757; 
+    cursor: pointer;
+  }
+
+  #toggleButton {
+    font-size: 1.5em; 
+    padding: 10px 20px; 
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .additional-info {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .additional-info h2 {
+    color: #671717;
+  }
+  
+  .additional-info p {
+    line-height: 1.6;
+  }
+  
+  .university-image {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  /* Footer Styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #b75757;
+    color: #fff;
+}
+  

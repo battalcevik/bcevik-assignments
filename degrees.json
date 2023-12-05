@@ -1,0 +1,22 @@
+{
+    "degrees": [
+      {
+        "school": "Kocaeli University",
+        "program": "Mechatronic Engineering",
+        "type": "BS",
+        "yearConferred": 2012
+      },
+      {
+        "school": "Medeniyet University",
+        "program": "Economics",
+        "type": "BA",
+        "yearConferred": 2016
+      },
+      {
+        "school": "Boston University",
+        "program": "Computer Science",
+        "type": "MS",
+        "yearConferred": "2024"
+      }
+    ]
+  }

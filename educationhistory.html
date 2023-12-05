@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education History</title>
+    <link rel="stylesheet" href="degrees.css">
+  </head>
+  <body>
+
+  <header>
+    <p>Please click on the Education History button to see my education backgroud!</p>
+    <button id="toggleButton">Education History</button>
+  </header>
+
+  <section class="education-content" id="educationSection">
+    <table>
+      <thead>
+        <tr>
+          <th>School</th>
+          <th>Program</th>
+          <th>Type</th>
+          <th>Year Conferred</th>
+        </tr>
+      </thead>
+      <tbody id="educationTableBody">
+        <!-- Table content will be added dynamically using JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <section class="additional-info">
+    <h2>About Me</h2>
+    <p>
+      Welcome to my Education History page. Here, you can find details about the degrees I've earned
+      and the programs I've been a part of throughout my academic journey.
+    </p>
+
+    <h2>Future Goals</h2>
+    <p>
+      As I continue my educational journey, I look forward to pursuing new challenges and expanding my knowledge
+      in various fields. Stay tuned for more updates on my academic endeavors!
+    </p>
+
+    <img src="bostonuniversitycampus.png" alt="University Campus" class="university-image">
+  </section>
+
+  <script src="fetchDegrees.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const toggleButton = document.getElementById('toggleButton');
+      const educationSection = document.getElementById('educationSection');
+
+      toggleButton.addEventListener('click', function() {
+        educationSection.classList.toggle('show');
+      });
+    });
+  </script>
+  </body>
+  <footer>&copy;2023. Battal Cevik. Open Source.</footer>
+</html>
